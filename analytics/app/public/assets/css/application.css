@@ -1,0 +1,65 @@
+@import url(//fonts.googleapis.com/css?family=Lato:700);
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	margin:0;
+	font-family:'Lato', sans-serif;
+	color: #999;
+  margin-bottom: 60px;
+}
+
+h1{
+  margin-bottom: 30px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.footer p {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.welcome {
+	text-align: center;
+}
+
+a, a:visited {
+	text-decoration:none;
+}
+
+.dropdown-menu li .nav-span{
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  //color: #333;
+  white-space: nowrap;
+}
+
+.loading {
+  background: url('../img/bg_loading.png');
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 4;
+  height: 800px;
+  width: 100%;
+}
+.loading img {
+  position: relative;
+  top: 10%;
+  left: 49%;
+  z-index: 3;
+}

@@ -1,0 +1,70 @@
+insert into InsideviewStates (Country,State)
+select distinct CompanyCountry,CompanyState from Insideview where CompanyCountry<>'' order by 1,2
+
+insert into InsideviewIndustries (Industry,SubIndustry)
+select distinct Industry,SubIndustry from Insideview where Industry<>'' order by 1,2
+
+
+            <div class="row">
+              <div class="col-xs-12 col-md-7">
+                Select: 
+                <button type="button" class="btn btn-link">All</button>
+                <button type="button" class="btn btn-link">None</button>
+              </div>
+              <div class="col-xs-6 col-md-5">
+                <button type="button" class="btn btn-success">Add Selected</button>
+                <button type="button" class="btn btn-success">Add All <?php echo $pageCount ?></button>
+                <button type="button" class="btn btn-success">Add All <?php echo $total ?></button>
+              </div>
+            </div>         
+            </br> 
+
+
+
+update Insideview
+set CompanyName=replace(CompanyName,'&#039;','''')
+where CompanyName like '%&#039;%'
+
+
+select 
+i.CompanyWebsite,
+(select l.website from InsideviewLinkedIns il inner join LinkedIn l ON l.LinkedInID = il.LinkedInID where il.InsideViewID = i.ID),
+i.* from Insideview i where 
+(select count(*) from InsideviewLinkedIns il inner join LinkedIn l ON l.LinkedInID = il.LinkedInID where il.InsideViewID = i.ID)=1
+and 
+(select l.website from InsideviewLinkedIns il inner join LinkedIn l ON l.LinkedInID = il.LinkedInID where il.InsideViewID = i.ID)=i.CompanyWebsite
+
+
+select 
+i.CompanyWebsite,
+(select l.website from InsideviewLinkedIns il inner join LinkedIn l ON l.LinkedInID = il.LinkedInID where il.InsideViewID = i.ID and l.website=i.CompanyWebsite),
+i.* from Insideview i where 
+(select count(*) from InsideviewLinkedIns il inner join LinkedIn l ON l.LinkedInID = il.LinkedInID where il.InsideViewID = i.ID and l.website=i.CompanyWebsite)=1
+and LinkedInID IS NULL
+
+select * from Insideview where LinkedInID>0
+
+select replace(CompanyWebsite,'http://',''),CompanyWebsite,insideview.* from insideview where CompanyWebsite like 'http%'
+
+select replace(Website,'http://',''),Website,LinkedIn.* from LinkedIn where Website like 'http://%'
+select replace(Website,'/',''),Website,LinkedIn.* from LinkedIn where Website like '%/' and Website not like '%//%'
+select concat('www.',Website),Website,LinkedIn.* from LinkedIn where Website<>'' and Website not like 'www%' and Website not like '%//%' 
+
+update LinkedIn set Website=replace(Website,'http://','') where Website like 'http://%'
+update LinkedIn set Website=replace(Website,'https://','') where Website like 'https://%'
+update LinkedIn set Website=replace(Website,'/','') where Website like '%/' and Website not like '%//%'
+
+update Insideview 
+set LinkedInID = (select l.LinkedInID from InsideviewLinkedIns il inner join LinkedIn l ON l.LinkedInID = il.LinkedInID where il.InsideViewID = Insideview.ID and replace(l.website,'www.','')=replace(Insideview.CompanyWebsite,'www.',''))
+where 
+(select count(*) from InsideviewLinkedIns il inner join LinkedIn l ON l.LinkedInID = il.LinkedInID where il.InsideViewID = Insideview.ID and replace(l.website,'www.','')=replace(Insideview.CompanyWebsite,'www.',''))=1
+and LinkedInID IS NULL
+
+
+update Insideview set CompanyNoEmployee=replace(CompanyNoEmployee,',','') where CompanyNoEmployee like '%,%'
+update Insideview set CompanyRevenue=replace(CompanyRevenue,'$','') where CompanyRevenue like '%$%'
+update Insideview set CompanyRevenue=replace(CompanyRevenue,'M','') where CompanyRevenue like '%M%'
+update Insideview set CompanyRevenue=replace(CompanyRevenue,',','') where CompanyRevenue like '%,%'
+
+
+

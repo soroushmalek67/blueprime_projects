@@ -1,0 +1,359 @@
+
+{
+  "project": {
+    "id": "1",
+    "name": "test project",
+    "owner_id": "1"
+  },
+  "companies": [
+    {
+      "id": "1",
+      "name": "S & R Sawmills Ltd",
+      "address": "18887 98A Ave",
+      "city": "Surrey",
+      "province": "BC",
+      "country": "Canada",
+      "postal": "V4N4E1",
+      "lat": "49.181689",
+      "lng": "-122.699161",
+      "phone": "6048880022",
+      "naics": "321111",
+      "employees": "425",
+      "revenue": "",
+      "established_at": "",
+      "services": "Mfg. - Sawmills & Custom Cutting",
+      "naics_description": "",
+      "project_id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Bekaert Canada Ltd",
+      "address": "11041 Elevator Rd",
+      "city": "Surrey",
+      "province": "BC",
+      "country": "Canada",
+      "postal": "V3V2R9",
+      "lat": "49.18211",
+      "lng": "-122.909455",
+      "phone": "6045815441",
+      "naics": "332619",
+      "employees": "135",
+      "revenue": "",
+      "established_at": "",
+      "services": "Manufacturers",
+      "naics_description": "",
+      "project_id": "1"
+    },
+    {
+      "id": "3",
+      "name": "Reliance Foundry Co Ltd",
+      "address": "207 - 6450 148 St",
+      "city": "Surrey",
+      "province": "BC",
+      "country": "Canada",
+      "postal": "V3S7G7",
+      "lat": "49.112941",
+      "lng": "-122.812105",
+      "phone": "6045924333",
+      "naics": "333519",
+      "employees": "11",
+      "revenue": "",
+      "established_at": "",
+      "services": "Manufacturing",
+      "naics_description": "Rolling Mill and Other Metalworking Machinery Manufacturing",
+      "project_id": "1"
+    },
+    {
+      "id": "4",
+      "name": "Cloverdale Paint Inc",
+      "address": "6950 King George Blvd",
+      "city": "Surrey",
+      "province": "BC",
+      "country": "Canada",
+      "postal": "V3W4Z9",
+      "lat": "49.127518",
+      "lng": "-122.845427",
+      "phone": "6045961736",
+      "naics": "325510",
+      "employees": "106",
+      "revenue": "",
+      "established_at": "",
+      "services": "Retail Merchants",
+      "naics_description": "Paint and Coating Manufacturing",
+      "project_id": "1"
+    },
+    {
+      "id": "5",
+      "name": "Cam Chain Co Ltd (128 St)",
+      "address": "8355 128 St",
+      "city": "Surrey",
+      "province": "BC",
+      "country": "Canada",
+      "postal": "V3W4G1",
+      "lat": "49.154648",
+      "lng": "-122.867994",
+      "phone": "6045991522",
+      "naics": "333210",
+      "employees": "38",
+      "revenue": "",
+      "established_at": "",
+      "services": "Mfg. - Chains for Sawmill & Woodworking Machinery",
+      "naics_description": "",
+      "project_id": "1"
+    },
+    {
+      "id": "6",
+      "name": "X L Ironworks Co",
+      "address": "12720 82 Ave",
+      "city": "Surrey",
+      "province": "BC",
+      "country": "Canada",
+      "postal": "V3W3G2",
+      "lat": "49.151935",
+      "lng": "-122.874068",
+      "phone": "6045961747",
+      "naics": "332999",
+      "employees": "45",
+      "revenue": "",
+      "established_at": "",
+      "services": "Mfg. & Inst. Structural Steel & Misc. Metals",
+      "naics_description": "All Other Miscellaneous Fabricated Metal Product Manufacturing",
+      "project_id": "1"
+    },
+    {
+      "id": "7",
+      "name": "A A C Woodworking & Mfg Ltd",
+      "address": "13315 72 Ave",
+      "city": "Surrey",
+      "province": "BC",
+      "country": "Canada",
+      "postal": "V3W2N5",
+      "lat": "49.133776",
+      "lng": "-122.853263",
+      "phone": "6045943288",
+      "naics": "321919",
+      "employees": "7",
+      "revenue": "",
+      "established_at": "",
+      "services": "Mfg. - Custom Woodworking & Manufacturing",
+      "naics_description": "",
+      "project_id": "1"
+    },
+    {
+      "id": "8",
+      "name": "Bevco Sales International Inc",
+      "address": "9354 194 St",
+      "city": "Surrey",
+      "province": "BC",
+      "country": "Canada",
+      "postal": "V4N4E9",
+      "lat": "49.15583",
+      "lng": "-122.685568",
+      "phone": "6048881455",
+      "naics": "333920",
+      "employees": "16",
+      "revenue": "",
+      "established_at": "",
+      "services": "Mfg. - Conveyor Systems",
+      "naics_description": "",
+      "project_id": "1"
+    },
+    {
+      "id": "9",
+      "name": "Trowel Trades Accessories Ltd",
+      "address": "2158 191 St",
+      "city": "Surrey",
+      "province": "BC",
+      "country": "Canada",
+      "postal": "V3S3M3",
+      "lat": "49.040788",
+      "lng": "-122.693933",
+      "phone": "6045366100",
+      "naics": "332999",
+      "employees": "9",
+      "revenue": "",
+      "established_at": "",
+      "services": "Mfg. - Building Material",
+      "naics_description": "All Other Miscellaneous Fabricated Metal Product Manufacturing",
+      "project_id": "1"
+    },
+    {
+      "id": "10",
+      "name": "Whalley Printers & Stationers",
+      "address": "10715 King George Hwy",
+      "city": "Surrey",
+      "province": "BC",
+      "country": "Canada",
+      "postal": "V3T2X6",
+      "lat": "49.197197",
+      "lng": "-122.845608",
+      "phone": "6045883533",
+      "naics": "323119",
+      "employees": "7",
+      "revenue": "",
+      "established_at": "",
+      "services": "Office Supplies, Offset Printing,Retail Merchant - Stationery",
+      "naics_description": "",
+      "project_id": "1"
+    }
+  ],
+  "filters": {
+    "naics": [
+      {
+        "naics": "311615",
+        "naics_description": "Poultry Processing"
+      },
+      {
+        "naics": "311710",
+        "naics_description": "Seafood Product Preparation and Packaging"
+      },
+      {
+        "naics": "311990",
+        "naics_description": ""
+      },
+      {
+        "naics": "312110",
+        "naics_description": ""
+      },
+      {
+        "naics": "314120",
+        "naics_description": "Curtain and Linen Mills"
+      },
+      {
+        "naics": "321111",
+        "naics_description": ""
+      },
+      {
+        "naics": "321112",
+        "naics_description": ""
+      },
+      {
+        "naics": "321919",
+        "naics_description": ""
+      },
+      {
+        "naics": "323119",
+        "naics_description": ""
+      },
+      {
+        "naics": "323120",
+        "naics_description": "Support Activities for Printing"
+      },
+      {
+        "naics": "325510",
+        "naics_description": "Paint and Coating Manufacturing"
+      },
+      {
+        "naics": "325999",
+        "naics_description": ""
+      },
+      {
+        "naics": "326198",
+        "naics_description": ""
+      },
+      {
+        "naics": "327990",
+        "naics_description": ""
+      },
+      {
+        "naics": "332319",
+        "naics_description": ""
+      },
+      {
+        "naics": "332619",
+        "naics_description": ""
+      },
+      {
+        "naics": "332710",
+        "naics_description": "Machine Shops"
+      },
+      {
+        "naics": "332999",
+        "naics_description": "All Other Miscellaneous Fabricated Metal Product Manufacturing"
+      },
+      {
+        "naics": "333210",
+        "naics_description": ""
+      },
+      {
+        "naics": "333299",
+        "naics_description": ""
+      },
+      {
+        "naics": "333519",
+        "naics_description": "Rolling Mill and Other Metalworking Machinery Manufacturing"
+      },
+      {
+        "naics": "333920",
+        "naics_description": ""
+      },
+      {
+        "naics": "334290",
+        "naics_description": "Other Communications Equipment Manufacturing"
+      },
+      {
+        "naics": "334410",
+        "naics_description": ""
+      },
+      {
+        "naics": "334512",
+        "naics_description": "Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use"
+      },
+      {
+        "naics": "334999",
+        "naics_description": ""
+      },
+      {
+        "naics": "336211",
+        "naics_description": "Motor Vehicle Body Manufacturing"
+      },
+      {
+        "naics": "336310",
+        "naics_description": "Motor Vehicle Gasoline Engine and Engine Parts Manufacturing"
+      },
+      {
+        "naics": "336390",
+        "naics_description": "Other Motor Vehicle Parts Manufacturing"
+      },
+      {
+        "naics": "336612",
+        "naics_description": "Boat Building"
+      },
+      {
+        "naics": "337110",
+        "naics_description": "Wood Kitchen Cabinet and Countertop Manufacturing"
+      },
+      {
+        "naics": "337123",
+        "naics_description": ""
+      },
+      {
+        "naics": "339110",
+        "naics_description": ""
+      },
+      {
+        "naics": "339920",
+        "naics_description": "Sporting and Athletic Goods Manufacturing"
+      },
+      {
+        "naics": "339990",
+        "naics_description": ""
+      }
+    ],
+    "city": [
+      {
+        "city": "Surrey"
+      }
+    ],
+    "province": [
+      {
+        "province": "BC"
+      }
+    ],
+    "country": [
+      {
+        "country": "Canada"
+      }
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FIRMOGRAM - Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+    <!-- Styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap-overrides.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/theme.css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
+
+    <link rel="stylesheet" href="css/index.css" type="text/css" media="screen" />    
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen, projection" />    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="pull_top">
+    
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand"><strong>FIRMOGRAM</strong></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="features.html">FEATURES</a></li>
+                    <li><a href="pricing.html">PRICING</a></li>
+                    <li><a href="signin.php">Sign in</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section id="feature_slider" class="lol">
+        <!-- 
+            Each slide is composed by <img> and .info
+            - .info's position is customized with css in index.css
+            - each <img> parallax effect is declared by the following params inside its class:
+            
+            example: class="asset left-472 sp600 t120 z3"
+            left-472 means left: -472px from the center
+            sp600 is speed transition
+            t120 is top to 120px
+            z3 is z-index to 3
+            Note: Maintain this order of params
+
+            For the backgrounds, you can combine from the bgs folder :D
+        -->
+        <article class="slide" id="ideas" style="background: url('img/indigo.jpg') repeat-x top center;">
+            <div class="info">
+                <h2 ><br/>Making sense of your business.<br/><br/>Discover power of visual<br/>industry ecosystem.</h2>
+            </div>
+            <img class="asset left-10 sp600 t90 z2" src="img/bg3.png" />
+        </article>
+    </section>
+
+    <div id="showcase">
+        <div class="container">
+            <div class="row feature_wrapper">
+                <!-- Features Row -->
+                <div class="features_op1_row">
+                    <!-- Feature -->
+                    <div class="col-sm-5 feature first">
+                        <div class="text">
+                            <h6>WHAT DOES IT DO</h6>
+                            <p>
+                                FIRMOGRAM is a service operated by blueprime analytics  Inc. It builds and visualizes your existing business ecosystem and monitors the dynamics of your business environment by empowering online data sources  and social media analytics.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Feature -->
+                    <div class="col-sm-2 feature">
+                        <div class="img_box">
+                                <img src="img/bp_logo.png">
+                        </div>
+                    </div>
+                    <!-- Feature -->
+                    <div class="col-sm-5 feature last">
+                        <div class="text">
+                            <h6>WHAT DOES IT DELIVER</h6>
+                            <p>
+                                FIRMOGRAM visualizes your business ecosystem and monitors the sales and marketing opportunities within your industry sector and beyond. It uncovers your relationship with other firms and expands your business opportunities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- starts footer -->
+    <footer id="footer" style="background: url('img/indigo.png') repeat-x top center;">
+        <div class="container">
+            <div class="row sections">
+                <div class="col-sm-8 recent_posts">
+                    <div id="in_pricing">
+                        <div class="container">
+                            <div class="start">
+                                <p>Want to learn more?</p>
+                                <p>Get started with a FREE demo</p>
+                                <a href="signup.php">TRY IT FOR FREE!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row credits">
+                <div class="col-md-12">
+                    <div class="row social">
+                        <div class="col-md-12">
+                            <a href="#" class="facebook">
+                                <span class="socialicons ico1"></span>
+                                <span class="socialicons_h ico1h"></span>
+                            </a>
+                            <a href="#" class="twitter">
+                                <span class="socialicons ico2"></span>
+                                <span class="socialicons_h ico2h"></span>
+                            </a>
+                            <a href="#" class="flickr">
+                                <span class="socialicons ico4"></span>
+                                <span class="socialicons_h ico4h"></span>
+                            </a>
+                            <a href="#" class="pinterest">
+                                <span class="socialicons ico5"></span>
+                                <span class="socialicons_h ico5h"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row copyright">
+                        <div class="col-md-12">
+                            © Copyright 2011-2014 blueprime Inc. All Rights Reserved.
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script type="text/javascript" src="js/index-slider.js"></script>	
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="Group 20150824-05:31:13">
+            <file>file:/C:/xampp/htdocs/firmogram/app/models/project/Project.php</file>
+            <file>file:/C:/xampp/htdocs/firmogram/app/views/layouts/application.blade.php</file>
+            <file>file:/C:/xampp/htdocs/firmogram/app/views/projects/projects.blade.php</file>
+            <file>file:/C:/xampp/htdocs/firmogram/app/views/shared/_top_nav_bar.blade.php</file>
+            <file>file:/C:/xampp/htdocs/firmogram/public/templates/home.html</file>
+            <file>file:/C:/xampp/htdocs/firmogram/public/assets/css/style.css</file>
+            <file>file:/C:/xampp/htdocs/firmogram/app/routes.php</file>
+            <file>file:/C:/xampp/htdocs/firmogram/app/controllers/ProjectController.php</file>
+            <file>file:/C:/xampp/htdocs/firmogram/app/views/projects/index.blade.php</file>
+        </group>
+    </open-files>
+</project-private>

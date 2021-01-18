@@ -1,0 +1,18 @@
+{
+  "name": "firmogram",
+  "version": "0.1.0",
+  "description": "The Power of Business Ecosystem Intelligent",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taher Dameh tdameh@gmail.com",
+  "license": "firmogram.com",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.6.0",
+    "matchdep": "^0.3.0"
+  }
+}

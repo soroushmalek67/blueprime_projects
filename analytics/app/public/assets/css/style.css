@@ -1,0 +1,784 @@
+//General Stylesheet
+@font-face {font-family: MuseoSans100;src: url('../css/fonts/museosans_100.woff');}
+@font-face {font-family: MuseoSans300;src: url('../css/fonts/museosans_300.woff');}
+@font-face {font-family: museosans-500-webfont;src: url('../css/fonts/museosans-500-webfont.woff');}
+@font-face {font-family: museosans-700-webfont;src: url('../css/fonts/museosans-700-webfont.woff');}
+@font-face {font-family: MuseoSans900;src: url('../css/fonts/museosans_900.woff');}
+@font-face {font-family: OpenSansRegular;src: url('../css/fonts/opensans_regular.woff');}
+@font-face {font-family: OpenSans-Semibold;src: url('../css/fonts/OpenSans-Semibold.woff');}
+.headingh1 {
+    color:black;
+}
+.logo {
+    padding: 15px 0;
+}
+.logo > a > img {
+    width: 155px;
+}
+img.login-logo {
+    width: 210px;
+}
+.top-menu {
+    padding: 25px 0 0 0;
+}
+.user-login {
+    margin-right: 2px;
+    width: 19px;
+    margin-top: 22px;
+    vertical-align: sub; 
+}
+.dropdown.user-name {
+    margin-top: -22px;
+}
+.logo {
+    margin-top: 15px;
+}
+.menu-navigation-bar li {
+    padding: 2px 20px 0 0;
+}
+.menu-navigation-bar li:first-child {
+    padding: 0px 20px 0 0;
+}
+.bottom-nev {
+    background-color: #364859;
+}
+
+header.title {
+    padding-top: 15px;
+}
+
+header.title .navbar-header button{
+    padding: 8px 2px;
+    color:white;
+}
+
+header.title .navbar-header ul li ul{
+    background:#364859; 
+    color:white;
+    padding: 5px;
+}
+header.title .navbar-header ul li ul li:hover{
+    color:black;
+}
+header.title .navbar-header a{
+    padding: 8px 2px;
+    color:white;
+}
+header.title .navbar-header a:focus {
+    background: none !important;
+}
+header.title .navbar-header a:hover {
+    background: none !important;
+}
+.create .create-new {
+    color: #fff !important;
+    background-color: transparent !important; 
+    border-color: #EEEEEE !important;
+    text-transform: capitalize !important;
+        padding: 7px 15px;
+}
+.create .create-new:hover {
+    color: #364859 !important;
+    background-color: white !important; 
+    border-color: #fff !important;
+    text-transform: capitalize !important;
+        padding: 7px 15px;
+}
+.projects-index {
+   margin-top: 50px;
+}
+.projects-index table thead {
+    background: #fc7309;
+}
+
+.projects-index table thead tr th{
+    color: white;
+    padding: 13px 10px;
+    font-size: 17px;
+}
+
+.projects-index table thead tr th{
+    color: white;
+}
+
+.projects-index table tbody tr td{
+    color: #7D7878;
+}
+.projects-index table tbody tr td{
+    color: #7D7878;
+}
+
+.projects-index table tbody tr td a span{
+    font-size: 13px;
+}
+
+.projects-index table tbody tr td a{
+    color: #7D7878;
+}
+.projects-index table tbody tr td:last-child a{
+    color: #7D7878;
+     width: 22%;
+     min-width: 125px;
+}
+.projects-index table tbody tr td .duplicat{
+    color: #7D7878;
+     width: 55%;
+     min-width: 125px;
+}
+
+
+.project-index {
+   margin-top: 10px;
+}
+.project-index table thead {
+    background: #fc7309;
+}
+
+.project-index table thead tr th{
+    color: white;
+    padding: 13px 10px;
+    font-size: 17px;
+}
+
+.project-index table thead tr th{
+    color: white;
+}
+
+.projects-index table tbody tr td{
+    color: #7D7878;
+}
+.projects-index table tbody tr td{
+    color: #7D7878;
+}
+
+.projects-index table tbody tr td a span{
+    font-size: 13px;
+}
+
+.projects-index table tbody tr td a{
+    color: #7D7878;
+}
+.projects-index table tbody tr td:last-child a{
+    color: #7D7878;
+     width: 22%;
+     min-width: 125px;
+}
+.projects-index table tbody tr td .duplicat{
+    color: #7D7878;
+     width: 55%;
+     min-width: 125px;
+}
+
+a.linkedin img {
+    border-radius: 89px;
+    width: 36px;
+}
+
+.users-index {
+   margin-top: 10px;
+}
+.users-index table thead {
+    background: #fc7309;
+}
+
+.users-index table thead tr th{
+    color: white;
+    padding: 13px 10px;
+    font-size: 17px;
+}
+
+.users-index table thead tr th{
+    color: white;
+}
+
+.users-index table tbody tr td{
+    color: #7D7878;
+}
+.users-index table tbody tr td{
+    color: #7D7878;
+}
+
+.users-index table tbody tr td a span{
+    font-size: 13px;
+}
+
+.users-index table tbody tr td a{
+    color: #7D7878;
+}
+.users-index table tbody tr td:last-child a{
+    color: #7D7878;
+     width: 22%;
+     min-width: 125px;
+}
+.users-index table tbody tr td .duplicat{
+    color: #7D7878;
+     width: 55%;
+     min-width: 125px;
+}
+
+
+.destroy {
+    background: #364859;  
+    border-color: #364859;
+    color: #FFFFFF !important;
+}
+
+
+.main-body, .projects-show {
+    min-height: 600px;
+}
+
+.footer-menu {
+  margin-top:20px;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+  border-top: 4px solid #fc7309;
+  background-color: #fff;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer-links ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-links ul li  {
+    display: inline;
+    margin-right: 5px;
+    padding: 0 20px;
+    color:#343434;
+    border-right: 1px solid #343434;
+}
+.footer-links ul li > a {
+    color:#343434;
+    font-size: 14px;
+}
+
+.footer-links ul li:last-child {
+    margin: 0;
+    border: none;
+}
+.social-media {
+    padding-top:15px;
+}
+
+.social-media a {
+    padding: 0 10px;
+}
+
+
+
+/*.registrationFormSection form {
+    position: relative;
+}
+.registrationFormSection form:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("http://localhost/firmogram/public/img/front/ajax_loader.gif") no-repeat center rgba(0, 0, 0, 0.5);
+    top: 0;
+    position: absolute;
+    z-index: 4;
+}*/
+
+
+/****************************************Login Page*************************/
+
+/****************************************Login Page*************************/
+.loginFormSection {
+    padding: 68px 0;
+    //border-bottom: 5px solid #fc7309;
+}
+.loginFormSection.loginFormSectionNw{
+}
+.loginFormSection .loginFormCont {
+    max-width: 490px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px 0 30px;
+    overflow: hidden;
+}
+.loginFormSection .loginFormCont h1 {
+   color: #000000;
+   margin: 5px 0 20px;
+   text-transform: uppercase;
+   text-align: center;
+}
+.loginFormSection .loginFormCont h1 img {
+    vertical-align: inherit;
+}
+.loginFormSection .loginFormCont h1 span {
+}
+.loginFormSection .loginFormCont .userTypeCont {
+   text-align: center;
+   background: #F0F2F3;
+   padding: 1px 0 16px;
+   border-top: 1px solid #CCCCCC;
+   border-bottom: 1px solid #CCCCCC;
+   margin-bottom: 25px;
+}
+.registrationFormCont.loginFormCont .userTypeCont .radioBtnCont + .radioBtnCont {
+    border-color: #DDDDDD;
+}
+.loginFormSection .loginFormCont input[type="text"], .loginFormSection .loginFormCont input[type="password"] {
+    border: 1px solid #DCDCDC;
+    border-radius: 8px;
+    font: 18px MuseoSans100;
+    color: #AAAAAA;
+    background: url("../../img/front/form_icon_username.png") no-repeat left 9px center #F9F9F9;
+    padding-left: 36px;
+    margin: 20px 0 0;
+}
+.loginFormSection .loginFormCont input[type="password"] {
+    background-image: url("../../img/front/form_icon_login_pass.png");
+}
+.loginFormSection .loginFormCont .btn {
+    width: 100%;
+    margin: 20px 0;
+    padding: 14px 18px;
+}
+.loginFormSection .loginFormCont input[type="checkbox"] {
+    
+}
+.loginFormSection .loginFormCont label {
+    margin: 0;
+    font: 20px MuseoSans300;
+}
+.loginFormSection .loginFormCont a {
+    color: #FC7A17;
+    font: 20px MuseoSans300;
+}
+.loginFormSection .loginFormCont .signinOrCont {
+    background: #000;
+    border-radius: 150px;
+    color: #fff;
+    font: 30px museosans-700-webfont;
+    display: inline-block;
+    padding: 8px 4px;
+    position: relative;
+    margin: 20px 0;
+}
+.loginFormSection .loginFormCont .signinOrCont:before, .loginFormSection .loginFormCont .signinOrCont:after {
+    content: "";
+    height: 1px;
+    width: 500px;
+    position: absolute;
+    left: -508px;
+    background: #F2F2F2;
+    top: 50%;
+}
+.loginFormSection .loginFormCont .signinOrCont:after {
+    right: -508px;
+    left: auto;
+}
+.loginFormSection .registrationFormCont.loginFormCont .radioBtnCont input[type="radio"] + label:before {
+    margin-top: 3px;
+}
+/*New Sign In
+============================================================================*/
+.loginFormSectionNwForm *{transition:.2s;}
+.loginFormSectionNw .loginFormCont h1 {
+    font-size: 32px  !important;
+    margin: 5px 0 20px;
+    text-transform: uppercase;
+}
+.loginFormSectionNw .sign-in-pen {
+    margin: 20px 0 0;
+}
+.loginFormCont .loginFormSectionNwForm label {
+    color: #ff8800;
+    font: 17px MuseoSans300;
+}
+.loginFormSection .loginFormCont .loginFormSectionNwForm input[type="text"], 
+.loginFormSection .loginFormCont .loginFormSectionNwForm input[type="password"] {
+    background-image: none;
+    border: medium none;
+    border-radius: 0 3px 3px 0;
+    display: table-cell;
+    height: 46px;
+    margin: 0;
+    padding: 1px 15px;
+    width: 100%;
+}
+.input-group.login-field > span {
+    background-color: #ff8800;
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 60px;
+}.input-group.login-field {
+    border: 1px solid #ff8800;
+    border-radius: 3px;
+    width: 100%;
+    margin: 5px 0 15px;
+}
+.text-center.submit-btn-auth > input:hover,.text-center.submit-btn-auth > input:focus {
+    background-color: #fff;
+    color: #ff8800;
+}
+.text-center.submit-btn-auth > input {
+    background-color: #ff8800;
+    border: 1px solid #ff8800;
+    border-radius: 5px;
+    color: #fff;
+    font: 20px OpenSans-Semibold;
+    margin: 20px 0 0;
+    padding: 10px 30px;
+}.margin-top-15{margin-top: 15px;}
+.loginFormSection .loginFormCont .otherLogins .fb-login {
+    background: rgba(0, 0, 0, 0) url("../../img/front/fb-icon.png") no-repeat center center / 100% auto;
+    color: #fff;
+    display: inline-block;
+    height: 41px;
+    padding: 9px 0 0 40px;
+    width: 33%;
+}
+.loginFormSection .loginFormCont .otherLogins .in-login {
+    background: rgba(0, 0, 0, 0) url("../../img/front/in-icon.png") no-repeat center center / 100% auto;
+    color: #fff;
+    display: inline-block;
+    height: 41px;
+    padding: 9px 0 0 40px;
+    width: 33%;
+    margin-left: 10%;
+}
+.loginFormSectionNw .loginFormCont.registrationFormCont {
+    padding: 0;border-radius: 15px;
+}
+.otherLogins.text-center {
+    background-color: #ff8800;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.loginFormSectionNwFormInner{
+    padding: 0 8%;
+    margin: 10px 0 20px;
+}
+.loginFormSection .loginFormCont .not-red-link-auth a {
+    font-size: 18px;
+}
+.loginFormSectionNwForm .checkboxCont.margin-top-15 > label,.loginFormSection .loginFormCont .margin-top-15 > a  {
+    color: #777777;
+    font-size: 16px;
+}
+.checkboxCont {
+    padding: 0 16px 0 26px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.checkboxCont input[type="checkbox"] {
+    display: none;
+}
+.checkboxCont input[type="checkbox"] + label {
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 6px;
+}
+.checkboxCont input[type="checkbox"] + label:before {
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    content: "";
+    display: inline-block;
+    height: 20px;
+    left: 0;
+    margin-left: -24px;
+    position: absolute;
+    transition: border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+    -o-transition: border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+    -ms-transition: border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+    -moz-transition: border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+    -webkit-transition: border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+    width: 20px;
+    margin-top: -1px;
+}
+.checkboxCont input[type="checkbox"]:checked + label:before {
+    background: url("../../img/front/checkbox_tick_icon.png") no-repeat center;
+    
+}
+.registrationFormCont .radioBtnCont {
+    padding: 0 16px 0 22px;
+    display: inline-block;
+    margin-top: 12px;
+}
+.registrationFormCont .radioBtnCont + .radioBtnCont {
+    border-left: 1px solid #eee;
+    padding-left: 40px;
+}
+.registrationFormCont .radioBtnCont input[type="radio"] {
+    display: none;
+}
+.registrationFormCont .radioBtnCont input[type="radio"] + label {
+    position: relative;
+    margin: 0;
+    padding: 0 0 0 6px;
+}
+.registrationFormCont .radioBtnCont input[type="radio"] + label:before {
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 150px;
+    content: "";
+    display: inline-block;
+    height: 17px;
+    left: 0;
+    margin-left: -20px;
+    position: absolute;
+    transition: border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+    -o-transition: border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+    -ms-transition: border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+    -moz-transition: border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+    -webkit-transition: border 0.15s ease-in-out 0s, color 0.15s ease-in-out 0s;
+    width: 17px;
+    margin-top: -1px;
+}
+.registrationFormCont .radioBtnCont input[type="radio"]:checked + label:before {
+    background: url("../../img/front/active_radio_icon.png") no-repeat center;
+    border-color: #FC7309;
+    
+}
+.registrationFormCont .radioBtnCont input[type="radio"]:disabled + label:before {
+    background: #eee;
+    border: 1px solid #cccccc;
+    cursor: not-allowed;
+}
+
+
+/* Add users */
+
+.users-edit *{transition:.2s;}
+.users-edit .loginFormCont h1 {
+    font-size: 32px ;
+    margin: 5px 0 20px;
+    text-transform: uppercase;
+}
+.users-edit .sign-in-pen {
+    margin: 20px 0 0;
+}
+
+.users-edit .loginFormCont .loginFormSectionNwForm input[type="text"], 
+.users-edit .loginFormCont .loginFormSectionNwForm input[type="password"] {
+    background-image: none;
+    border: medium none;
+    border-radius: 0 3px 3px 0;
+    display: table-cell;
+    height: 46px;
+    margin: 0;
+    padding: 1px 15px;
+    width: 100%;
+}
+
+.users-edit .loginFormCont .otherLogins .fb-login {
+    background: rgba(0, 0, 0, 0) url("../../img/front/fb-icon.png") no-repeat center center / 100% auto;
+    color: #fff;
+    display: inline-block;
+    height: 41px;
+    padding: 9px 0 0 40px;
+    width: 33%;
+}
+.users-edit .loginFormCont .otherLogins .in-login {
+    background: rgba(0, 0, 0, 0) url("../../img/front/in-icon.png") no-repeat center center / 100% auto;
+    color: #fff;
+    display: inline-block;
+    height: 41px;
+    padding: 9px 0 0 40px;
+    width: 33%;
+    margin-left: 10%;
+}
+.users-edit .loginFormCont.registrationFormCont {
+    padding: 0;border-radius: 15px;
+}
+
+.users-edit{
+    padding: 0 8%;
+    margin: 10px 0 20px;
+}
+.users-edit .loginFormCont .not-red-link-auth a {
+    font-size: 18px;
+}
+.users-edit .checkboxCont.margin-top-15 > label,.loginFormSection .loginFormCont .margin-top-15 > a  {
+    color: #777777;
+    font-size: 16px;
+}
+
+
+/* Add Projects */
+
+.projects-edit *{transition:.2s;}
+.projects-edit .loginFormCont h1 {
+     font-size: 32px ;
+    margin: 5px 0 20px;
+    text-transform: uppercase;
+}
+.projects-edit .sign-in-pen {
+    margin: 20px 0 0;
+}
+
+.projects-edit .loginFormCont  input[type="text"] {
+    background-image: none;
+    border: medium none;
+    border-radius: 0 3px 3px 0;
+    display: table-cell;
+    height: 46px;
+    margin: 0;
+    padding: 1px 15px;
+    width: 100%;
+}
+
+.projects-edit .loginFormCont .otherLogins .fb-login {
+    background: rgba(0, 0, 0, 0) url("../../img/front/fb-icon.png") no-repeat center center / 100% auto;
+    color: #fff;
+    display: inline-block;
+    height: 41px;
+    padding: 9px 0 0 40px;
+    width: 33%;
+}
+.projects-edit .loginFormCont .otherLogins .in-login {
+    background: rgba(0, 0, 0, 0) url("../../img/front/in-icon.png") no-repeat center center / 100% auto;
+    color: #fff;
+    display: inline-block;
+    height: 41px;
+    padding: 9px 0 0 40px;
+    width: 33%;
+    margin-left: 10%;
+}
+.projects-edit .loginFormCont.registrationFormCont {
+    padding: 0;border-radius: 15px;
+}
+
+.projects-edit{
+    padding: 0 8%;
+    margin: 10px 0 20px;
+}
+.projects-edit .loginFormCont .not-red-link-auth a {
+    font-size: 18px;
+}
+.projects-edit .checkboxCont.margin-top-15 > label,.loginFormSection .loginFormCont .margin-top-15 > a  {
+    color: #777777;
+    font-size: 16px;
+}
+
+.btn.btn-primary.btn-file {
+    position: relative;
+    overflow: hidden;
+    background-color: #2793FF;
+    width: 123px;
+    font-size: 19.5px;
+    height: 46px;
+    font-family: Myriad Pro;
+    vertical-align: bottom;
+    text-transform: none;
+    border-radius: 0;
+}
+.btn.btn-primary.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 5px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+    height: 40px;
+}
+.registrationFormCont .input-group .form-control {
+    border-radius: 0;
+    border: 1px solid #ccc;
+    border-left: 0;
+    box-shadow: none;
+}
+
+
+
+.breadcrumpsSection {
+    background: #fbfbfb none repeat scroll 0 0;
+    border-bottom: 3px solid #eeeeee;
+    padding: 15px 0 8px;
+}
+.breadcrumpsSection ul li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    display: inline-block;
+    font: 16px museosans-700-webfont;
+    padding: 0 10px;
+    position: relative;
+}
+.breadcrumpsSection ul li + li:before {
+    color: #aaaaaa;
+    content: "/";
+    left: -4px;
+    position: absolute;
+    top: 0;
+}
+.breadcrumpsSection ul li a {
+    color: #aaaaaa;
+    font: 15px museosans-500-webfont;
+}
+
+.homeTopThreeBoxesCont {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.homeTopThreeBoxesCont .homeTopThreeBox {
+    background: #364859;
+    height: 230px;
+    text-align: center;
+    overflow: hidden;
+}
+.homeTopThreeBoxesCont .homeTopThreeBox h2 {
+    font: 30px OpenSansRegular;
+    color: #fff;
+    background: url('images/home_boxes_title_shadows.png') no-repeat center bottom / 100%;
+    padding: 8px 0 10px;
+}
+.homeTopThreeBoxesCont .homeTopThreeBox .homeTopThreeBoxesCircleCont {
+    margin-top: 22px;
+}
+.homeTopThreeBoxesCont .homeTopThreeBox .homeTopThreeBoxesCircleCont > span {
+    background: #fc7913;
+    border: 2px solid #fff;
+    text-align: center;
+    font: 60px/125px OpenSans-Semibold;
+    color: #fff;
+    width: 205px;
+    height: 205px;
+    border-radius: 200px;
+    display: inline-block;
+}
+.homeTopThreeBoxesCont .homeTopThreeBox .homeTopThreeBoxesCircleCont > span span {
+    font-size: 40px;
+}
+
+.public.panel.panel-success>.panel-heading {
+    color: #364859;
+    background-color: #e5f0fa;
+    border-color: #e5f0fa;
+}
+.public.panel.panel-success {
+    border-color: #e5f0fa;
+}
+.public.panel.panel-success > .panel-heading .badge {
+    color: white !important;
+    background-color: #fc7711 !important;
+    border-radius: 6px !important;
+}
+
+/* Bootstrap.css */
+@media screen and (max-width: 1279px) {
+    .table-responsive {
+        border: 1px solid #ddd;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        width: 100%;
+    }
+    .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > td, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > thead > tr > th {
+        white-space: nowrap;
+    }
+}
+

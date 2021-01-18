@@ -1,0 +1,31 @@
+{
+  "name": "firmogram",
+  "version": "0.1.0",
+  "authors": [
+    "Taher Dameh <tdameh@gmail.com>"
+  ],
+  "description": "The Power of Business Ecosystem Intelligent",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "license": "firmogram.com",
+  "homepage": "http://firmogram.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.3.0",
+    "normalize-css": "~3.0.2",
+    "select2": "~3.5.2",
+    "d3": "~3.5.3",
+    "DataTables": "~1.10.6",
+    "lodash": "~3.7.0"
+  }
+}
